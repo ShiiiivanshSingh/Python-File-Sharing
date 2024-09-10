@@ -29,6 +29,7 @@ url = pyqrcode.create(link)
 url.svg("myqr.svg", scale=8)
 webbrowser.open('myqr.svg')
 
+
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print("serving at port", PORT)
     print("Type this in your Browser", IP)
