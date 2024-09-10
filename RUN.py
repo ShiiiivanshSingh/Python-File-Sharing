@@ -10,8 +10,7 @@ import os
 PORT = 8010
 os.environ['USERPROFILE']
 
-directory = r'C:\Users\shamb\Downloads\PLACE FILES HERE'
-
+directory = r'C:\Users\shamb\Downloads'
 os.chdir(directory)
 
 Handler = http.server.SimpleHTTPRequestHandler
