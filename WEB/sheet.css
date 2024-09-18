@@ -5,9 +5,12 @@
     box-sizing: border-box;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     font-family: 'Montserrat', sans-serif;
-    src: url(FONTS/Montserrat-Regular.ttf);
     line-height: 1.6;
     background: linear-gradient(135deg,#9fccfa,#0974f1);
     color: #333;
