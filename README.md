@@ -4,6 +4,11 @@ This project sets up a basic HTTP server using Python and generates a QR code fo
 
 Here is the link to the website: [LINK](https://bit.ly/3zzYbEJ)
 
+
+<a href="https://bit.ly/3zzYbEJ" target="_blank">
+    <button>Click Here</button>
+</a>
+
 ## How It Works
 
 1. **HTTP Server**: The script sets up an HTTP server on port `8010`.
