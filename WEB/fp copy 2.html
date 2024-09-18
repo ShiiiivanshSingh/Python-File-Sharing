@@ -100,22 +100,6 @@
                 navbar.classList.remove('compact');
             }
         }
-    let lastScrollTop = 0; // Track the last scroll position
-    const footer = document.querySelector('footer');
-
-    window.addEventListener('scroll', function() {
-        let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (currentScrollTop > lastScrollTop) {
-            // Scrolling down
-            footer.classList.add('hidden');
-        } else {
-            // Scrolling up
-            footer.classList.remove('hidden');
-        }
-
-        lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // For Mobile or negative scrolling
-    });
     </script>
 </body>
 </html>
