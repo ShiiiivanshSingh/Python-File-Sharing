@@ -1,0 +1,173 @@
+/* Resetting default margin and padding for a consistent look across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg,#229799,aqua,#229799);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg,#229799,aqua,#229799);
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+  background: linear-gradient(135deg,#229799,aqua,#229799);
+    color:white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    
+    color: black;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+pre {
+    background: linear-gradient(135deg,#229799,aqua,#229799);
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color:#007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color:#0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 1px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.github-button {
+    display: inline-block;
+    background:aqua;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+.github-button:hover {
+    background: linear-gradient(to right,#229799,aqua);
+    transform: scale(1.05);
+}
+
+.github-button:active {
+    background: linear-gradient(to right, #2c6b2f, #1b5e20);
+    transform: scale(0.98);
