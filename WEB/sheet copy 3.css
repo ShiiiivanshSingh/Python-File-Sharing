@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -24,13 +26,15 @@ body {
   font-style: normal;
 }
 
+
 header {
     background: linear-gradient(135deg,#00BEE8,#0098D1);
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    color: white;
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    color:white;
     padding: 2rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 header h1 {
@@ -43,15 +47,13 @@ header p {
 }
 
 nav {
-    background: linear-gradient(135deg,#00BEE8,#0098D1);
-    color: white;
+  background: linear-gradient(135deg,#00BEE8,#0098D1);
+    color:white;
     position: sticky;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: padding 0.3s ease, background-color 0.3s ease;
 }
-
 nav ul {
     list-style: none;
     display: flex;
@@ -65,6 +67,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
     padding: 1rem 2rem;
     text-decoration: none;
     display: inline-block;
@@ -73,17 +76,10 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
+    
     color: black;
 }
 
-/* Compact navbar styling */
-nav.compact {
-    padding: 0.5rem 0;
-    background-color: #006aa5; /* Slightly darker background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* Main content styles */
 main {
     padding: 2rem;
     max-width: 900px;
@@ -120,19 +116,20 @@ pre {
 }
 
 a {
-    color: #007bff;
+    color:#007bff;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #0056b3;
+    color:#0056b3;
     text-decoration: underline;
 }
 
 footer {
     background: #007bff;
     color: #fff;
+    text-align: center;
     text-align: center;
     padding: 1rem;
     position: fixed;
@@ -171,7 +168,7 @@ footer {
 
 .github-button {
     display: inline-block;
-    background: #8364e8;
+    background:#8364e8;
     color: white;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
@@ -190,4 +187,3 @@ footer {
 .github-button:active {
     background: linear-gradient(to right, #ffffff, #888988);
     transform: scale(0.98);
-}
