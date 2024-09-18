@@ -9,6 +9,9 @@ Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blan
     <button>Click Here</button>
 </a>
 
+![Alt Text](WEB/IMG/webqr.png)
+
+
 ## How It Works
 
 1. **HTTP Server**: The script sets up an HTTP server on port `8010`.
