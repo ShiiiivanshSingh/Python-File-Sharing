@@ -12,7 +12,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg,#9fccfa,#0974f1);
+    background: linear-gradient(135deg,#00BEE8,#0098D1);
     color: #333;
 }
 
@@ -28,7 +28,7 @@ body {
 
 
 header {
-    background: linear-gradient(135deg,#9fccfa,#0974f1);
+    background: linear-gradient(135deg,#00BEE8,#0098D1);
 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     color:white;
     padding: 2rem;
@@ -47,7 +47,7 @@ header p {
 }
 
 nav {
-  background: linear-gradient(135deg,#9fccfa,#0974f1);
+  background: linear-gradient(135deg,#00BEE8,#0098D1);
     color:white;
     position: sticky;
     top: 0;
