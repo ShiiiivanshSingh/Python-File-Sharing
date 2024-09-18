@@ -9,8 +9,7 @@ Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blan
     <button>Click Here</button>
 </a>
 
-![Alt Text](WEB/IMG/webqr.png)
-
+<img src="WEB/IMG/webqr.png" alt="Alt Text" width="200" height="200">
 
 ## How It Works
 
