@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    src: url(WEB/FONTS/Montserrat-Regular.ttf);
     line-height: 1.6;
     background: linear-gradient(135deg,#9fccfa,#0974f1);
     color: #333;
