@@ -2,10 +2,10 @@
 
 This project sets up a basic HTTP server using Python and generates a QR code for accessing the server locally. The server serves files from a specified directory (in this case your default `Downloads` folder), and the QR code provides an easy way to access the server URL.
 
-Here is the link to the website: [LINK](https://bit.ly/3zzYbEJ)
 
 
-<a href="https://bit.ly/3zzYbEJ" target="_blank">
+
+Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blank">
     <button>Click Here</button>
 </a>
 
