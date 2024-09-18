@@ -116,6 +116,38 @@
 
         lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // For Mobile or negative scrolling
     });
+
+
+    window.onscroll = function() {
+    toggleNavbar();
+    toggleFooter();
+};
+
+function toggleNavbar() {
+    const navbar = document.querySelector('nav');
+    if (window.scrollY > 50) {
+        navbar.classList.add('hidden');
+    } else {
+        navbar.classList.remove('hidden');
+    }
+}
+
+function toggleFooter() {
+    const footer = document.querySelector('footer');
+    let lastScrollTop = 0;
+    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScrollTop > lastScrollTop) {
+        footer.classList.add('hidden');
+    } else {
+        footer.classList.remove('hidden');
+    }
+
+    lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+}
+
+
+
     </script>
 </body>
 </html>
