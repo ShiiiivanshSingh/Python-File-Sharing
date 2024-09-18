@@ -9,7 +9,7 @@ Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blan
     <button>Click Here</button>
 </a>
 
-OR, You Can Scan This QR COde To Reach The Website:
+OR, You Can Scan This QR Code To Access The Website:
 
 <div style="text-align: center;">
     <img src="WEB/IMG/webqr.png" alt="Alt Text" width="200" height="200">
