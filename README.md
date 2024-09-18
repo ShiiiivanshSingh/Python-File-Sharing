@@ -8,8 +8,9 @@ This project sets up a basic HTTP server using Python and generates a QR code fo
 Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blank">
     <button>Click Here</button>
 </a>
-
-<img src="WEB/IMG/webqr.png" alt="Alt Text" width="200" height="200">
+<div style="text-align: center;">
+    <img src="WEB/IMG/webqr.png" alt="Alt Text" width="400" style="padding: 20px;">
+</div>
 
 ## How It Works
 
