@@ -13,6 +13,20 @@ Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blan
     <img src="WEB/IMG/webqr.png" alt="Alt Text" width="200" height="200">
 </div>
 
+
+
+# Test Image Centering
+
+<div style="text-align: center;">
+    <img src="WEB/IMG/webqr.png" alt="Alt Text" width="200" height="200">
+</div>
+
+| ![Alt Text](WEB/IMG/webqr.png) |
+|:------------------------------:|
+
+
+
+
 ## How It Works
 
 1. **HTTP Server**: The script sets up an HTTP server on port `8010`.
