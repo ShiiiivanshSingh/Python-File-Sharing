@@ -4,7 +4,7 @@ A Python-based HTTP server for local file sharing that generates QR codes for ea
 
 <div align="center">
 
-[![Python File Sharing](https://img.shields.io/badge/Try-QuickShare-5e548e?style=for-the-badge)](https://bit.ly/3zzYbEJ)
+[![Python File Sharing](https://img.shields.io/badge/Try-QuickShare-5e548e?style=for-the-badge)](https://shiiiivanshsingh.github.io/Python-File-Sharing/WEB/fp.html)
 </div>
 
 <h1 align="center">Features 🌟</h1>
@@ -26,11 +26,12 @@ A Python-based HTTP server for local file sharing that generates QR codes for ea
 4. Scan QR code or use displayed URL
 5. Access shared files instantly!
 
-<h1 align="center">☁️ Project Screenshot:</h1>
+<h1 align="center">☁️ Project QR Code:</h1>
 
-<div style="text-align: center;">
+
+<p align="center">
     <img src="WEB/IMG/webqr.png" alt="QR Code" width="200" height="200">
-</div>
+</p>
 
 ## Installation Steps 🛠️
 
@@ -65,7 +66,7 @@ python RUN.py
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Developer Links 🔗
+## My Links 🔗
 
 - [LinkTree](https://linktr.ee/ShivanshPratapSingh)
 - [YouTube](https://www.youtube.com/@shivanshpratapsingh)
