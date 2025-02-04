@@ -1,73 +1,75 @@
-﻿#  LOCAL FILE SHARING USING PYTHON
+﻿<h1 align="center" id="title">Python File Sharing 🔗</h1>
 
-This project sets up a basic HTTP server using Python and generates a QR code for accessing the server locally. The server serves files from a specified directory (in this case your default `Downloads` folder), and the QR code provides an easy way to access the server URL.
+A Python-based HTTP server for local file sharing that generates QR codes for easy access. Share files seamlessly across your local network with a clean, minimal interface! 📂
 
+<div align="center">
 
-
-
-Here is the link to the website:  <a href="https://bit.ly/3zzYbEJ" target="_blank">
-    <button>Click Here</button>
-</a>
-
-OR, You Can Scan This QR Code To Access The Website:
-
-<div style="text-align: center;">
-    <img src="WEB/IMG/webqr.png" alt="Alt Text" width="200" height="200">
+[![Python File Sharing](https://img.shields.io/badge/Try-QuickShare-5e548e?style=for-the-badge)](https://bit.ly/3zzYbEJ)
 </div>
 
+<h1 align="center">Features 🌟</h1>
 
-## How It Works
+- **HTTP Server** - Sets up server on port 8010
+- **QR Code Generation** - Easy access via QR code
+- **Local Network Sharing** - Share files across devices
+- **Downloads Folder Access** - Serves files from your Downloads
+- **Clean Interface** - Minimal and user-friendly design
+- **Mobile Responsive** - Works on all devices
+- **Easy Setup** - Quick installation process
+- **Cross-Platform** - Works on any OS with Python
 
-1. **HTTP Server**: The script sets up an HTTP server on port `8010`.
-2. **QR Code Generation**: Generates a QR code containing the server's local IP address and port.
-3. **Displaying Information**: The server information and QR code are displayed in the terminal.
+<h1 align="center">How to Use ⚡</h1>
 
-## Usage
+1. Clone the repository
+2. Navigate to project directory
+3. Run the Python script
+4. Scan QR code or use displayed URL
+5. Access shared files instantly!
 
-To use this project, follow these steps:
+<h1 align="center">☁️ Project Screenshot:</h1>
 
-1. **Clone the Repository**:
-    ```sh
-    git clone https://github.com/ShiiiivanshSingh/Python-File-Sharing
-    ```
+<div style="text-align: center;">
+    <img src="WEB/IMG/webqr.png" alt="QR Code" width="200" height="200">
+</div>
 
-2. **Navigate to the Project Directory**:
-    ```sh
-    cd Python-File-Sharing
-    ```
+## Installation Steps 🛠️
 
-3. **Run the Script**:
-    ```sh
-    python RUN.py
-    ```
-
-4. **Access the Server**: 
-   - Open the generated QR code image `myqr.svg` with a QR code reader or 
-   - Visit the displayed URL in your browser.
-
-5. **File Placement**: 
-   - Place the files to be shared in your default `Downloads` folder.
-   - The files present in the directory will be displayed in the interface.
-
-## Requirements
-
-- Python 3.2
-- `pyqrcode`
-- `python3-png` (for PNG support)
-
+1. Clone the Repository:
 ```sh
-pip install pypng
+git clone https://github.com/ShiiiivanshSingh/Python-File-Sharing
 ```
 
+2. Navigate to Directory:
 ```sh
+cd Python-File-Sharing
+```
+
+3. Install Requirements:
+```sh
+pip install pypng
 pip install pyqrcode
 ```
 
-## License
+4. Run the Script:
+```sh
+python RUN.py
+```
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Requirements 💻
 
-## By Shivansh Pratap Singh
- (You can always check out my socials at : https://linktr.ee/ShivanshPratapSingh)
+- Python 3.2
+- pyqrcode
+- python3-png (for PNG support)
 
-Made On 10.09.24 <3
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Developer Links 🔗
+
+- [LinkTree](https://linktr.ee/ShivanshPratapSingh)
+- [YouTube](https://www.youtube.com/@shivanshpratapsingh)
+- [Instagram](https://www.instagram.com/shivansh___siingh/)
+
+---
+<p align="center">Made with ❤️ by Shivansh Pratap Singh</p>
