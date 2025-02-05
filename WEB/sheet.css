@@ -177,6 +177,11 @@ body {
     animation: fadeIn 1s ease-out 1s both;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;
