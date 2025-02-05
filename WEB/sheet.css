@@ -174,7 +174,7 @@ body {
     cursor: pointer;
     border-radius: var(--border-radius);
     transition: var(--transition);
-    animation: bounceIn 1s ease-out 1s both;
+    animation: fadeIn 1s ease-out 1s both;
 }
 
 @keyframes bounceIn {
